@@ -1,0 +1,72 @@
+body {
+    background: black;
+}
+
+h2{
+    color: white
+}
+
+.textorojo{
+    text-shadow: 0 0 5px rgb(143, 45, 45),
+    0 0 10px rgb(143, 45, 45),
+    0 0 15px rgb(143, 45, 45),
+    0 0 20px rgb(143, 45, 45),
+    0 0 25px rgb(143, 45, 45),
+    0 0 30px rgb(143, 45, 45),
+    0 0 40px rgb(143, 45, 45),
+    0 0 50px rgb(143, 45, 45),
+    0 0 60px rgb(143, 45, 45);
+}
+
+.textoamarillo{
+    text-shadow: 0 0 5px rgb(177, 177, 31),
+    0 0 10px rgb(177, 177, 31),
+    0 0 15px rgb(177, 177, 31),
+    0 0 25px rgb(177, 177, 31),
+    0 0 35px rgb(177, 177, 31),
+    0 0 45px rgb(177, 177, 31),
+    0 0 55px rgb(177, 177, 31),
+    0 0 65px rgb(177, 177, 31);
+}
+
+.textoverde {
+    text-shadow: 0 0 5px rgb(43, 143, 43),
+    0 0 15px rgb(43, 143, 43),
+    0 0 25px rgb(43, 143, 43),
+    0 0 35px rgb(43, 143, 43),
+    0 0 45px rgb(43, 143, 43),
+    0 0 55px rgb(43, 143, 43),
+    0 0 65px rgb(43, 143, 43),
+    0 0 75px rgb(43, 143, 43);
+
+}
+
+
+.btnrojo{
+    background-color: rgb(143, 45, 45);
+}
+
+.btnamariillo{
+    background-color: rgb(177, 177, 31);
+}
+
+.btnverde{
+    background-color: rgb(43, 143, 43);
+}
+
+
+
+.btnrojo:hover {
+    border: 1px solid rgb(143, 45, 45);
+    color:  rgb(143, 45, 45);
+}
+
+.btnamariillo:hover {
+    border: 1px solid rgb(177, 177, 31) ;
+    color: rgb(177, 177, 31);
+}
+
+.btnverde:hover {
+    border: 1px solid rgb(43, 143, 43);
+    color: rgb(43, 143, 43);
+}
